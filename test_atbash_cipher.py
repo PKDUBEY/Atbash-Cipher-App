@@ -8,5 +8,5 @@ def test_encrypt_dycrypt():
     assert output == 'Svool dliow!'
 
 def test2_encrypt_dycrypt():
-    output = AtbashCipher().encrypt_dycrypt('World!')
-    assert output == 'Dliow!'
+    output = AtbashCipher().encrypt_dycrypt('Christmas is the 25th of December')
+    assert output == 'Xsirhgnzh rh gsv 25gs lu Wvxvnyvi'
